@@ -1,0 +1,20 @@
+{
+    "name": "core/reg_page",
+    "description": "obviously this is the project",
+    "type": "project",
+    "license": "from Mother Russia",
+    "authors": [
+        {
+            "name": "keril m",
+            "email": "mfriend@yandex.ru"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "core"
+        }
+    }
+}

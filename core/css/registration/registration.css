@@ -1,0 +1,52 @@
+.prettyButton {
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    background-color: #4b4b4b;
+    box-shadow: 0 2px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+    color: white;
+}
+
+.prettyButton:hover {
+    background-color: #c5c5c5;
+    color: #4b4b4b;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#registrationDiv {
+    margin: 50px auto 0;
+    align-content: center;
+    padding-bottom: 56px;
+    width: 500px;
+    height: auto;
+    background: #F2F2F2;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 2px #fff inset,
+    -1px -1px 2px #fff inset;
+    border-radius: 3px/6px;
+    -webkit-border-radius: 0 0 100% 100% / 0 0 8px 8px;
+    -webkit-box-shadow: rgba(0, 0, 0,.30) 0 2px 3px;
+}
+#registrationDiv input {
+    box-shadow: 0 2px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+    border-radius: 6px;
+}
+
+#registrationDiv div{
+    margin-left: 35%;
+}
+
+#registrationFormHeader{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    align-content: center;
+
+}
+
+#registrationFormFooter{
+    margin-top: 10px;
+}
+
+#registrationFormHeader, #registrationFormBody,
+#registrationFormFooter{
+    align-content: center;
+}
